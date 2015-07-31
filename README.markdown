@@ -30,23 +30,23 @@ symbols first, and numerics second, if the user presses Shift.
 
 Normal Dvorak:
 
-    Numeric row:            1234567890
-    Numeric row with shift: !@#$%^&*()
+    Numeric row:            1234567890[]
+    Numeric row with shift: !@#$%^&*(){}
 
 Dvorarkk:
 
-    Numeric row:            !@#$%^&*()
-    Numeric row with shift: 1234567890
+    Numeric row:            !@#$%^&*(){}
+    Numeric row with shift: 1234567890[]
 
 
 ## Supported platforms
 Layout files are provided for Mac OS X and X11 (Linux, *BSD, etc).  
 In Mac OS X, the layout was created using Ukelele, and is tested
-on Mac OS X 10.6.8.  
+on Mac OS X 10.6, 10.7, 10.8, 10.9 and 10.10.
 In X11, a standard US Dvorak xmodmap mapping file was updated
-and is tested on Ubuntu Linux 10.04.
+and is tested on Ubuntu Linux 10.04 and 14.04.
 
 
 ## But...
 Your coworkers probably hate using your computer because you
-use Dvorak. They'll hate you even more if you use Dvorarkk ;)
+use Dvorak. They'll hate you even more if you use Dvorarkk.
