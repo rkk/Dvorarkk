@@ -1,3 +1,19 @@
+!! Dvorarkk custom keyboard layout.
+!!
+!! Activate using the command "xmodmap path/to/dvorarkk.xmodmap".
+!! Rows in this file are organized in the following order after the = sign,
+!!
+!!   * Key
+!!   * Shift + Key
+!!   * Mode_switch + Key
+!!   * Mode_switch + Shift + Key
+!!   * AltGr + Key
+!!   * AltGr + Shift + Key
+!!
+!! The Right Shift key is remapped to Mode_switch, and the three Danish
+!! characters ae, oe and aa plus their upper-case variants have been added.
+!! Furthermore, the Icelandic characters eth and thorn have been added too.
+!! Search for the string "Danish" and "Icelandic", respectively.
 keycode   8 =
 keycode   9 = Escape NoSymbol Escape
 keycode  10 = exclam 1 exclam 1
@@ -14,7 +30,8 @@ keycode  20 = braceleft bracketleft bracketleft braceleft
 keycode  21 = braceright bracketright bracketright braceright dead_tilde
 keycode  22 = BackSpace NoSymbol BackSpace
 keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
-keycode  24 = apostrophe quotedbl apostrophe quotedbl dead_acute dead_diaeresis
+!! Danish characters ae and AE.
+keycode  24 = apostrophe quotedbl ae AE dead_acute dead_diaeresis
 keycode  25 = comma less comma less dead_cedilla dead_caron
 keycode  26 = period greater period greater dead_abovedot periodcentered
 keycode  27 = p P p P
@@ -28,14 +45,18 @@ keycode  34 = slash question slash question
 keycode  35 = equal plus equal plus
 keycode  36 = Return NoSymbol Return
 keycode  37 = Control_L NoSymbol Control_L
-keycode  38 = a A a A
-keycode  39 = o O o O
+!! Danish characters aa and AA.
+keycode  38 = a A aring Aring
+!! Danish characters oe and OE.
+keycode  39 = o O oslash Oslash
 keycode  40 = e E e E
 keycode  41 = u U u U
 keycode  42 = i I i I
-keycode  43 = d D d D
+!! Icelandic characters eth and ETH.
+keycode  43 = d D eth ETH
 keycode  44 = h H h H
-keycode  45 = t T t T
+!! Icelandic characters thorn and THORN.
+keycode  45 = t T thorn Thorn
 keycode  46 = n N n N
 keycode  47 = s S s S
 keycode  48 = minus underscore minus underscore
@@ -52,7 +73,7 @@ keycode  58 = m M m M
 keycode  59 = w W w W
 keycode  60 = v V v V
 keycode  61 = z Z z Z
-keycode  62 = Shift_R NoSymbol Shift_R
+keycode  62 = Mode_switch NoSymbol NoSymbol NoSymbol
 keycode  63 = KP_Multiply XF86_ClearGrab KP_Multiply XF86_ClearGrab
 keycode  64 = Alt_L Meta_L Alt_L Meta_L
 keycode  65 = space NoSymbol space
