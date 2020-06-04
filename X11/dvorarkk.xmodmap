@@ -31,7 +31,7 @@ keycode  21 = braceright bracketright bracketright braceright dead_tilde
 keycode  22 = BackSpace NoSymbol BackSpace
 keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 !! Danish characters ae and AE.
-keycode  24 = apostrophe quotedbl ae AE dead_acute dead_diaeresis
+keycode  24 = quotedbl apostrophe  ae AE dead_acute dead_diaeresis
 keycode  25 = comma less comma less dead_cedilla dead_caron
 keycode  26 = period greater period greater dead_abovedot periodcentered
 keycode  27 = p P p P
