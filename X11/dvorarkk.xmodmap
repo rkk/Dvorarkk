@@ -30,10 +30,10 @@ keycode  20 = braceleft bracketleft bracketleft braceleft
 keycode  21 = braceright bracketright bracketright braceright dead_tilde
 keycode  22 = BackSpace NoSymbol BackSpace
 keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
-!! Danish characters ae and AE.
+!! Danish characters ae (æ) and AE (Æ).
 keycode  24 = quotedbl apostrophe  ae AE dead_acute dead_diaeresis
-keycode  25 = comma less comma less dead_cedilla dead_caron
-keycode  26 = period greater period greater dead_abovedot periodcentered
+keycode  25 = comma less comma less
+keycode  26 = period greater period greater
 keycode  27 = p P p P
 keycode  28 = y Y y Y
 keycode  29 = f F f F
@@ -45,17 +45,17 @@ keycode  34 = question question question
 keycode  35 = equal plus equal plus
 keycode  36 = Return NoSymbol Return
 keycode  37 = Control_L NoSymbol Control_L
-!! Danish characters aa and AA.
+!! Danish characters aa (å) and AA (Å).
 keycode  38 = a A aring Aring
-!! Danish characters oe and OE.
+!! Danish characters oe (ø) and OE (Ø).
 keycode  39 = o O oslash Oslash
 keycode  40 = e E e E
 keycode  41 = u U u U
 keycode  42 = i I i I
-!! Icelandic characters eth and ETH.
+!! Icelandic characters eth (ð) and ETH (Ð).
 keycode  43 = d D eth ETH
 keycode  44 = h H h H
-!! Icelandic characters thorn and THORN.
+!! Icelandic characters thorn (þ) and THORN (Þ).
 keycode  45 = t T thorn Thorn
 keycode  46 = n N n N
 keycode  47 = s S s S
