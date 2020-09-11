@@ -9,6 +9,14 @@ to allow multiple different versions installed at the same time, especially
 on Windows.
 This really never worked, so Semantic Versioning is introduced instead.
 
+## Version 1.1.0
+Service release with minor changes,
+
+  - Semicolon (;) moved to a more ergonomic location on the key "6".
+  - Circumflexe (^) now requires the Alt key to be pressed.
+  - Umlaut (ü) added to "u" using the Alt key.
+  - The sharp s (ß) added to "s", using the Alt key.
+
 
 ## Version 1.0.0
 First SemVer-release, no functional changes compared to prior non-SemVer
