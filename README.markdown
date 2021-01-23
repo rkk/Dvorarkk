@@ -1,5 +1,10 @@
 # Dvorarkk - Dvorak for programmers
-![Dvorarkk layout](/Documentation/dvorarkk.png)
+
+    NORMAL           SHIFT           SECOND LEVEL (ALT)
+    :!@#$%;&*(){}    ~1234567890[]   `!@#$%^&*()[]
+    ',.pyfgcrl/=     "<>PYFGCRL?+    æ,.pyfgcrl/=
+    aoeuidhtns-|     AOEUIDHTNS_\    åøéüiðhþnß-| 
+    `';qjkxbmwvz     >':QJKXBMWVZ    >';qjkxbmwvz
 
 The Dvorak keyboard layout has been around for long, reducing
 the friction of typing, over Qwerty and the like. Without
@@ -7,7 +12,7 @@ kickstarting the Dvorak/Qwerty flame war, I'll just note that
 I've been a happy Dvorak customer for more than two decades.
 
 Dvorak and Qwerty were designed for typists, entering
-large amounts of natural language data having high frequency
+large amounts of natural language data having a higher frequency
 of alphanumerics (a-Z, 0-9) over symbols (#$^*, etc). Thus,
 the numeric top row (1-0) provides numerics first, and symbols
 second, if the user presses Shift.
@@ -15,7 +20,7 @@ second, if the user presses Shift.
 But I'm a programmer, not a typist. I enter large amounts
 of programming language data, with a significantly
 higher symbol frequency, as mandated by the programming
-language syntax. PHP is probably the worst case for this,
+language syntax. PHP and Perl are probably the worst case for this,
 as variables are prefixed with "$", statements
 end with ";" , functions need parenthesis pairs both in definition
 and usage. The Unix terminal is just as bad, and don't get
@@ -39,17 +44,17 @@ Thus, the Dvorarkk layout was created.
 Copy the layout by cloning this repository to somewhere in the local
 filesystem,
 
-    git clone https://github.com/rkk/Dvorarkk.git ~/src/dvorarkk
+    git clone https://github.com/rkk/Dvorarkk.git ~/.config/dvorarkk
 
 Load the layout into the current X11 session,
 
-    xmodmap ~/src/dvorarkk/X11/dvorarkk.xmodmap
+    xmodmap ~/.config/dvorarkk/X11/dvorarkk.xmodmap
 
 For the true UNIX legacy experience and maximum value for money,
 remap CapsLock to Control,
 
     setxkbmap -option ctrl:nocaps
-    xmodmap ~/src/dvorarkk/X11/dvorarkk.xmodmap
+    xmodmap ~/.config/dvorarkk/X11/dvorarkk.xmodmap
 
 Please note that setxkbmap resets the layout to default US, so run
 xmodmap _after_ setxkbmap.
