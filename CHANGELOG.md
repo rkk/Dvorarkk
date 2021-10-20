@@ -9,6 +9,15 @@ to allow multiple different versions installed at the same time, especially
 on Windows.
 This really never worked, so Semantic Versioning is introduced instead.
 
+## Version 1.2.0
+Service release with minor changes,
+
+  - Colon moved to the key to the right of Tab, quote (") now requires Shift to be pressed.
+  - Accented e (é) added to e, requires Shift to be pressed.
+  - Ntilde (ñ) added to n, requires Shift to be pressed.
+  - Odiaeresis (ö) added to q, requires Alt to be pressed.
+  - Apostrophe ('), grave (`) moved to the key to the right of Left Shift.
+
 ## Version 1.1.0
 Service release with minor changes,
 

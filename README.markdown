@@ -1,10 +1,10 @@
 # Dvorarkk - Dvorak for programmers
 
     NORMAL           SHIFT           SECOND LEVEL (ALT)
-    :!@#$%;&*(){}    ~1234567890[]   `!@#$%^&*()[]
-    ',.pyfgcrl/=     "<>PYFGCRL?+    æ,.pyfgcrl/=
+    ~!@#$%;&*(){}    ~1234567890[]   §!@#$%^&*()[]
+    :,.pyfgcrl/=     "<>PYFGCRL?+    æβ…pyfgcrl/≠
     aoeuidhtns-|     AOEUIDHTNS_\    åøéüiðhþnß-| 
-    `';qjkxbmwvz     >':QJKXBMWVZ    >';qjkxbmwvz
+    `'qjkxbmwwvz     <`QJKXBMWVZ    >'öjkxbmwvz
 
 The Dvorak keyboard layout has been around for long, reducing
 the friction of typing, over Qwerty and the like. Without
